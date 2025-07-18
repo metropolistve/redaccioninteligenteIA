@@ -1,0 +1,2 @@
+# redaccioninteligenteIA
+app redaccioninteligenteIA
