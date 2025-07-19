@@ -1,0 +1,102 @@
+[
+  {
+    "Término":"Algoritmo",
+    "Definición":"Conjunto de instrucciones o reglas definidas que permiten a una máquina realizar tareas o resolver problemas. En IA, los algoritmos son la base para entrenar modelos que reconocen patrones o generan contenido."
+  },
+  {
+    "Término":"Aprendizaje automático (machine learning)",
+    "Definición":"Subcampo de la IA que permite a las máquinas aprender de datos sin estar programadas explícitamente para cada tarea. Utilizado para recomendaciones, clasificación de noticias, análisis predictivo, etc."
+  },
+  {
+    "Término":"Aprendizaje profundo (deep learning)",
+    "Definición":"Técnica de aprendizaje automático basada en redes neuronales artificiales de múltiples capas. Permite realizar tareas complejas como reconocimiento de voz, imagen o generación de lenguaje natural."
+  },
+  {
+    "Término":"Auditoría algorítmica",
+    "Definición":"Proceso mediante el cual se examinan los sistemas de IA para garantizar que sus decisiones sean trazables, imparciales, seguras y ajustadas a la normativa."
+  },
+  {
+    "Término":"Autoría automatizada",
+    "Definición":"Generación de contenido textual o multimedia sin intervención humana directa, utilizando herramientas de IA. En muchos marcos legales, estos contenidos no gozan de protección plena por derechos de autor."
+  },
+  {
+    "Término":"Bias (sesgo algorítmico)",
+    "Definición":"Distorsión no deseada en los resultados de un sistema de IA debida a datos de entrenamiento desequilibrados o a decisiones de diseño. Puede reproducir estereotipos o discriminar a ciertos colectivos."
+  },
+  {
+    "Término":"Contenido generado por IA",
+    "Definición":"Información (texto, imagen, vídeo o audio) creada total o parcialmente mediante herramientas de inteligencia artificial. Debe estar claramente etiquetada para garantizar la transparencia editorial."
+  },
+  {
+    "Término":"Curación automatizada de contenidos",
+    "Definición":"Proceso mediante el cual sistemas de IA seleccionan, agrupan o jerarquizan información para facilitar su difusión. Debe ser supervisado por humanos para evitar sesgos o errores."
+  },
+  {
+    "Término":"Datos personales",
+    "Definición":"Información que identifica o hace identificable a una persona física. Su uso por parte de sistemas de IA debe cumplir con normativas como el RGPD o la LOPDGDD."
+  },
+  {
+    "Término":"Derechos digitales",
+    "Definición":"Derechos fundamentales adaptados al entorno digital, como la privacidad, el acceso a la información, la protección de datos o el derecho a no ser objeto de decisiones automatizadas sin supervisión."
+  },
+  {
+    "Término":"Etiquetado de contenidos",
+    "Definición":"Práctica de informar explícitamente si un contenido ha sido creado o modificado mediante IA. Mejora la transparencia hacia la audiencia y protege la confianza editorial."
+  },
+  {
+    "Término":"Generación automática de lenguaje (NLG)",
+    "Definición":"Tecnología que permite a los sistemas producir texto escrito en lenguaje natural. Utilizada en redacciones para elaborar borradores, titulares o síntesis informativas."
+  },
+  {
+    "Término":"IA generativa",
+    "Definición":"Tipo de IA capaz de crear contenido nuevo (texto, imagen, audio o vídeo) a partir de datos de entrada. Ejemplos: ChatGPT, DALL·E, Midjourney."
+  },
+  {
+    "Término":"Inteligencia artificial (IA)",
+    "Definición":"Disciplina de la informática que desarrolla sistemas capaces de realizar tareas que, si fueran realizadas por humanos, requerirían inteligencia. En el contexto periodístico, la IA se aplica en tareas como redacción automatizada, verificación de hechos, análisis de datos, personalización de contenidos o generación de imágenes y vídeos."
+  },
+  {
+    "Término":"Ingeniería de prompts (prompt engineering)",
+    "Definición":"Disciplina que consiste en diseñar entradas precisas y efectivas para modelos de IA generativa con el fin de obtener respuestas útiles y controladas. Relevante en entornos editoriales."
+  },
+  {
+    "Término":"Explicabilidad (explainability)",
+    "Definición":"Capacidad de un sistema de IA para ofrecer explicaciones comprensibles sobre cómo y por qué toma determinadas decisiones. Fundamental para garantizar la trazabilidad y responsabilidad."
+  },
+  {
+    "Término":"Intervención humana significativa",
+    "Definición":"Supervisión editorial directa en el uso de IA, que implica responsabilidad profesional y capacidad de corregir, validar o rechazar los resultados generados por sistemas automatizados."
+  },
+  {
+    "Término":"Matriz de trazabilidad",
+    "Definición":"Documento o herramienta que registra cuándo, cómo y con qué herramientas de IA se ha intervenido un contenido. Permite auditorías internas y externas."
+  },
+  {
+    "Término":"Modelo de lenguaje (LLM)",
+    "Definición":"Modelo de IA entrenado con grandes volúmenes de texto para comprender, generar o traducir lenguaje natural. Ejemplo: GPT-4."
+  },
+  {
+    "Término":"Perfilado automatizado",
+    "Definición":"Procesamiento de datos personales mediante IA para evaluar aspectos de una persona (intereses, preferencias, riesgos). Está regulado por el RGPD y debe contar con consentimiento explícito."
+  },
+  {
+    "Término":"Protocolo editorial",
+    "Definición":"Conjunto de normas internas que regulan el uso de IA en cada fase de producción de contenidos. Incluye criterios de revisión, trazabilidad, transparencia y gestión de riesgos."
+  },
+  {
+    "Término":"Prompt",
+    "Definición":"Instrucción o texto de entrada que se proporciona a un sistema de IA para que genere una respuesta. La calidad del prompt influye directamente en el resultado obtenido."
+  },
+  {
+    "Término":"Responsabilidad editorial",
+    "Definición":"Obligación del medio de asumir la autoría y veracidad de todo el contenido publicado, independientemente del grado de automatización empleado."
+  },
+  {
+    "Término":"Supervisión reforzada",
+    "Definición":"Nivel elevado de control humano exigido en coberturas sensibles (salud, violencia, política), cuando se utiliza IA para crear o modificar contenidos."
+  },
+  {
+    "Término":"Trazabilidad",
+    "Definición":"Capacidad para reconstruir el proceso mediante el cual se ha generado un contenido automatizado. Incluye quién intervino, qué herramientas se usaron y en qué condiciones."
+  }
+]

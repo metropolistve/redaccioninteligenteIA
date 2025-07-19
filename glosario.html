@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Glosario Interactivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Glosario de Términos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="secciones/introduccion.html">Secciones</a>
+      <a href="glosario.html">Glosario</a>
+      <a href="descargas.html">Descargas</a>
+    </nav>
+  </header>
+  <section>
+    <label for="terminos">Selecciona un término:</label>
+    <select id="terminos" onchange="mostrarDefinicion()">
+      <option value="">-- Elegir término --</option>
+    </select>
+    <div id="definicion" style="margin-top:20px;"></div>
+  </section>
+  <script src="js/glosario.js"></script>
+</body>
+</html>
