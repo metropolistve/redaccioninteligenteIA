@@ -78,4 +78,40 @@ footer {
   display: block;
   margin: 0 auto;
 }
+/* Estilo para los bloques alternos */
+.bloque-alt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2em;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.bloque-alt.alterno-1 {
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.bloque-alt.alterno-2 {
+  flex-direction: row-reverse;
+  background-color: #f0f4f8;
+}
+
+.imagen-bloque {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.imagen-bloque img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.texto-bloque {
+  flex: 2 1 500px;
+}
 
