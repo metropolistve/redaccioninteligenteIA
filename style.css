@@ -26,3 +26,48 @@ footer {
   background-color: #e0e0e0;
   font-size: 0.9em;
 }
+/* NUEVO ESTILO PARA BLOQUES DE PRESENTACIÓN */
+
+.icono-bloque {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 60px 0;
+  flex-wrap: wrap;
+}
+
+.bloque:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.bloque-texto {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.bloque-imagen {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .bloque {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .bloque-texto, .bloque-imagen {
+    text-align: center;
+  }
+}
+
