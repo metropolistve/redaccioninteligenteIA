@@ -114,4 +114,18 @@ footer {
 .texto-bloque {
   flex: 2 1 500px;
 }
+/* CABECERA PRINCIPIOS */
+.cabecera-principios {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 2em;
+}
+
+/* TÍTULO GRANDE DE PRINCIPIO EN AZUL */
+.texto-bloque h3 {
+  color: #2c3eec;  /* azul vibrante */
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
 
