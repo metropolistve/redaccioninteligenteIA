@@ -69,4 +69,13 @@ footer {
   line-height: 1.6;
   font-size: 1.1em;
 }
+/* FORZAR TAMAÑO MÁXIMO DE LOS ICONOS */
+.imagen-bloque img {
+  width: auto;
+  max-width: 300px;
+  max-height: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
