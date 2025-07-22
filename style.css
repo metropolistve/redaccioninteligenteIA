@@ -121,6 +121,14 @@ footer {
   display: block;
   margin-bottom: 2em;
 }
+}
+/* CABECERA PRESENTACION */
+.cabecera-presentacion {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 2em;
+}
 
 /* TÍTULO GRANDE DE PRINCIPIO EN AZUL */
 .texto-bloque h3 {
