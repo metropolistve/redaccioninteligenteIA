@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guía Marco IA - Condiciones</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 class="titulo-seccion">Guía Marco IA</h1>
+    <nav class="menu-superior">
+      <a href="index.html">Inicio</a>
+      <a href="presentacion.html">Presentación</a>
+      <a href="principios.html">Principios</a>
+      <a href="normas.html">Normas</a>
+      <a href="protocolos.html">Protocolos</a>
+      <a href="transparencia.html">Transparencia</a>
+      <a href="supervision.html">Supervisión</a>
+      <a href="recursos.html">Recursos</a>
+      <a href="glosario.html">Glosario</a>
+      <a href="descargas.html">Descargas</a>
+    </nav>
+  </header>
+
+  <section>
+
+    <!-- Cabecera visual -->
+    <img src="assets/cabecera_condi.png" alt="Cabecera Condiciones de uso" class="cabecera-principios">
+
+    <!-- Introducción -->
+    <div class="texto-bloque">
+      <h2>Condiciones específicas por tipo de uso</h2>
+      <p>Este apartado establece directrices adicionales para contextos concretos en los que el uso de herramientas de inteligencia artificial plantea desafíos éticos, editoriales o legales específicos. Estas condiciones deben considerarse complementarias a los principios generales, y su aplicación dependerá del tipo de herramienta empleada y del contexto en el que se integre dentro del trabajo periodístico.</p>
+      <p>Las siguientes tipologías de uso requieren especial atención y regulación:</p>
+    </div>
+
+    <!-- 5.1 Imágenes y vídeos generados -->
+    <div class="bloque-alt alterno-1">
+      <div class="imagen-bloque">
+        <img src="assets/icono_princ_01.png" alt="IA en imágenes y vídeo" />
+      </div>
+      <div class="texto-bloque">
+        <h3>5.1 Imágenes y vídeos generados o modificados mediante IA</h3>
+        <ul>
+          <li><strong>Etiquetado obligatorio:</strong> Toda imagen o vídeo creado, editado o transformado mediante herramientas de IA debe identificarse de forma clara y visible, tanto para la audiencia como en los archivos internos del medio.</li>
+          <li><strong>Evitar simulaciones engañosas:</strong> No se permitirá el uso de IA para alterar imágenes informativas de manera que puedan inducir a error o falsificar la realidad, salvo en contextos de parodia, ficción o divulgación claramente señalizados.</li>
+          <li><strong>Criterios de uso editorial:</strong> El uso de imágenes o vídeos generados por IA debe responder a una finalidad ilustrativa o conceptual, y no sustituir documentación real en coberturas informativas sobre hechos verificados.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 5.2 Traducción, subtitulado -->
+    <div class="bloque-alt alterno-2">
+      <div class="imagen-bloque">
+        <img src="assets/icono_princ_02.png" alt="Traducción y doblaje" />
+      </div>
+      <div class="texto-bloque">
+        <h3>5.2 Traducción, subtitulado y doblaje automáticos</h3>
+        <ul>
+          <li><strong>Revisión profesional obligatoria:</strong> Todos los contenidos traducidos, subtitulados o doblados mediante sistemas automáticos deben ser revisados y validados por profesionales antes de su difusión.</li>
+          <li><strong>Evitar distorsiones o errores de interpretación:</strong> La tecnología utilizada debe respetar el tono, el contexto y la intención original del contenido.</li>
+          <li><strong>Claridad en los créditos:</strong> En caso de emplearse voz sintética o doblaje generado por IA, debe informarse explícitamente a la audiencia sobre su naturaleza.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 5.3 Asistentes de escritura -->
+    <div class="bloque-alt alterno-1">
+      <div class="imagen-bloque">
+        <img src="assets/icono_princ_03.png" alt="Asistentes de escritura" />
+      </div>
+      <div class="texto-bloque">
+        <h3>5.3 Asistentes de escritura, resumen y edición de texto</h3>
+        <ul>
+          <li><strong>Supervisión editorial en todo el proceso:</strong> Los sistemas de generación automática de textos deben funcionar bajo la supervisión directa de periodistas y editores.</li>
+          <li><strong>Prohibición de publicación sin revisión:</strong> No debe publicarse contenido elaborado íntegramente por IA sin validación humana, incluidos borradores y boletines.</li>
+          <li><strong>Evitar la suplantación de autoría:</strong> No está permitido presentar contenidos generados por IA como si hubieran sido redactados por una persona real mediante firmas ficticias o avatares.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 5.4 Automatización redes sociales -->
+    <div class="bloque-alt alterno-2">
+      <div class="imagen-bloque">
+        <img src="assets/icono_princ_05.png" alt="Redes sociales" />
+      </div>
+      <div class="texto-bloque">
+        <h3>5.4 Automatización de redes sociales</h3>
+        <ul>
+          <li><strong>Control humano y coherencia editorial:</strong> Las publicaciones automatizadas deben ser programadas y supervisadas por profesionales del medio.</li>
+          <li><strong>Evitar la desinformación por errores de contexto:</strong> Cualquier contenido difundido debe estar previamente verificado.</li>
+          <li><strong>Regulación del uso de chatbots y asistentes:</strong> Los asistentes conversacionales deben identificarse como tales y no simular identidad humana.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 5.5 Contenidos en tiempo real -->
+    <div class="bloque-alt alterno-1">
+      <div class="imagen-bloque">
+        <img src="assets/icono_princ_06.png" alt="Contenido en directo" />
+      </div>
+      <div class="texto-bloque">
+        <h3>5.5 Cobertura de eventos y generación de contenido en tiempo real</h3>
+        <ul>
+          <li><strong>Validación humana imprescindible:</strong> El uso de IA en coberturas en directo debe estar supervisado por profesionales que garanticen exactitud y contexto.</li>
+          <li><strong>Identificación de contenidos automatizados:</strong> Debe indicarse de forma clara si se usan herramientas de IA para mostrar datos, cronologías o citas.</li>
+          <li><strong>Evitar la sobrecarga informativa:</strong> La IA no debe sustituir la selección ni la narrativa que aporta el equipo humano.</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Guía Marco IA. Proyecto visual realizado con herramientas abiertas.</p>
+  </footer>
+
+</body>
+</html>
