@@ -146,4 +146,33 @@ footer {
   color: #2c3e50; /* azul oscuro */
   font-size: 1.4em;
 }
+.bloque-valores {
+  border: 3px solid #003366; /* azul oscuro */
+  padding: 2rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  max-width: 1000px;
+}
+
+.bloque-valores .imagen-bloque {
+  flex: 0 0 auto;
+  margin-right: 2rem;
+}
+
+.icono-valores {
+  width: 160px;  /* el doble de 80px aprox */
+  height: auto;
+}
+
+.titulo-valores {
+  font-size: 2rem;
+  text-align: center;
+  color: #003366;
+  margin-bottom: 1rem;
+  width: 100%;
+}
 
