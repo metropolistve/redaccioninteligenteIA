@@ -9,13 +9,23 @@ async function cargarGlosario() {
     select.appendChild(option);
   });
   window.definiciones = data;
+  
 }
 
 function mostrarDefinicion() {
-  const termino = document.getElementById('terminos').value;
+  const termino = document.getElementById('terminos').value.trim();
   const div = document.getElementById('definicion');
-  const definicion = window.definiciones.find(item => item.Término === termino);
-  div.innerHTML = definicion ? `<strong>${termino}</strong>: ${definicion.Definición}` : "";
+
+  const definicion = window.definiciones.find(
+    item => item.Término.trim() === termino
+  );
+
+  if (definicion) {
+    div.innerHTML = `<strong>${termino}</strong>: ${definicion.Definición}`;
+  } else {
+    div.innerHTML = "<em>No se encontró definición.</em>";
+  }
 }
+
 window.onload = cargarGlosario;
 
