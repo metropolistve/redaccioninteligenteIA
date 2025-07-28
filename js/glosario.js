@@ -12,19 +12,8 @@ async function cargarGlosario() {
   window.definiciones = data;
 }
 function mostrarDefinicion() {
-  const select = document.getElementById("terminos");
-  const definicion = document.getElementById("definicion");
-  const termino = select.value;
-
-  if (termino === "") {
-    definicion.innerHTML = "";
-    definicion.classList.remove("mostrar");
-    return;
-  }
-
-  // Aquí se asume que tienes un diccionario llamado "glosario"
-  const texto = glosario[termino] || "Definición no disponible.";
-  definicion.innerHTML = texto;
-  definicion.classList.add("mostrar");
+  const termino = document.getElementById('terminos').value;
+  const div = document.getElementById('definicion');
+  const definicion = window.definiciones.find(item => item.Término === termino);
+  div.innerHTML = definicion ? `<strong>${termino}</strong>: ${definicion.Definición}` : "";
 }
-
