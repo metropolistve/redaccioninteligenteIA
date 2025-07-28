@@ -9,7 +9,7 @@ async function cargarGlosario() {
     select.appendChild(option);
   });
   window.definiciones = data;
-  window.addEventListener('load', cargarGlosario);
+  
 
 }
 
@@ -28,5 +28,5 @@ function mostrarDefinicion() {
   }
 }
 
-window.onload = cargarGlosario;
+window.addEventListener('load', cargarGlosario);
 
