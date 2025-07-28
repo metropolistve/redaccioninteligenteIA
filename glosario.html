@@ -74,11 +74,13 @@
     <!-- Cabecera visual -->
     <img src="assets/cabecera_glosario.png" alt="Glosario" class="cabecera-principios">
     
-  <section>
-    <label for="terminos">Selecciona un término:</label>
-    <select id="terminos" onchange="mostrarDefinicion()">
-      <option value="">-- Elegir término --</option>
-    </select>
+  <section class="glosario-contenedor">
+  <label for="terminos">Selecciona un término:</label>
+  <select id="terminos" onchange="mostrarDefinicion()">
+    <option value="">-- Elegir término --</option>
+  </select>
+  <div id="definicion"></div>
+</section>
     <div id="definicion" style="margin-top:20px;"></div>
   </section>
   <script src="js/glosario.js"></script>
