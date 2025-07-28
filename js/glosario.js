@@ -17,19 +17,3 @@ function mostrarDefinicion() {
   const definicion = window.definiciones.find(item => item.Término === termino);
   div.innerHTML = definicion ? `<strong>${termino}</strong>: ${definicion.Definición}` : "";
 }
-cargarGlosario();
-function mostrarDefinicion() {
-  const select = document.getElementById("terminos");
-  const definicion = document.getElementById("definicion");
-  const termino = select.value;
-
-  if (termino) {
-    // Reemplaza esto con tu lógica real de búsqueda en el glosario
-    const definicionTexto = obtenerDefinicion(termino);
-    definicion.innerText = definicionTexto;
-    definicion.classList.add("visible");
-  } else {
-    definicion.innerText = "";
-    definicion.classList.remove("visible");
-  }
-}
