@@ -211,3 +211,49 @@ footer {
 .boton-descarga:hover {
   background-color: #005f60;
 }
+.glosario-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.glosario-label {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #0a3a5a;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.glosario-select {
+  width: 60%;
+  max-width: 500px;
+  font-size: 1.1em;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #e0f5f0;
+  color: #0a3a5a;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.glosario-definicion {
+  margin-top: 40px;
+  font-size: 1.3em;
+  background-color: #f0f9f8;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 800px;
+  line-height: 1.6em;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.5s ease;
+}
+
+/* Cuando se añada contenido dinámico, mostrar con animación */
+.glosario-definicion.mostrar {
+  opacity: 1;
+  transform: translateY(0);
+}
