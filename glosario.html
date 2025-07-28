@@ -1,75 +1,39 @@
-
-
-
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Guía Marco IA - Presentación</title>
-
     <link rel="stylesheet" href="style.css" />
-
 </head>
-
 <body>
-
     <header>
-
         <h1 class="titulo-seccion">Guía Marco IA</h1>
-
         <nav class="menu-superior">
-
             <a href="index.html">Inicio</a>
-
             <a href="presentacion.html">Presentación</a>
-
             <a href="principios.html">Principios</a>
-
             <a href="ambitos.html">Ámbitos</a>
-
             <a href="recomendaciones.html">Recomendaciones</a>
-
             <a href="condiciones.html">Condiciones de uso</a>
-
             <a href="guia_rapida.html">Guía rápida</a>
-
             <a href="glosario.html"class="activo">Glosario</a>
-
             <a href="descargas.html">Descargas</a>
-
         </nav>
-
-    </header>
-
+   </header>
       <!-- Imagen de cabecera -->
-
     <section>
-
     <!-- Cabecera visual -->
-
     <img src="assets/cabecera_glosario.png" alt="Glosario" class="cabecera-principios">
-
     
+  <section class="glosario-container">
+  <label for="terminos" class="glosario-label">Selecciona un término:</label>
+  <select id="terminos" onchange="mostrarDefinicion()" class="glosario-select">
+    <option value="">-- Elegir término --</option>
+  </select>
+  <div id="definicion" class="glosario-definicion"></div>
+</section>
 
-  <section>
-
-    <label for="terminos">Selecciona un término:</label>
-
-    <select id="terminos" onchange="mostrarDefinicion()">
-
-      <option value="">-- Elegir término --</option>
-
-    </select>
-
-    <div id="definicion" style="margin-top:20px;"></div>
-
-  </section>
 
   <script src="js/glosario.js"></script>
 
