@@ -1,4 +1,3 @@
-
 async function cargarGlosario() {
   const response = await fetch('data/glosario.json');
   const data = await response.json();
@@ -11,9 +10,12 @@ async function cargarGlosario() {
   });
   window.definiciones = data;
 }
+
 function mostrarDefinicion() {
   const termino = document.getElementById('terminos').value;
   const div = document.getElementById('definicion');
   const definicion = window.definiciones.find(item => item.Término === termino);
   div.innerHTML = definicion ? `<strong>${termino}</strong>: ${definicion.Definición}` : "";
 }
+window.onload = cargarGlosario;
+
