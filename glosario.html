@@ -36,21 +36,30 @@
     margin-top: 30px;
     font-size: 1.3em;
     line-height: 1.6;
-    background-color: #f1f5f9;
-    padding: 20px;
+    background-color: #e0f3f7; /* azul verdoso claro */
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     color: #1a1a1a;
     min-height: 100px;
     width: 80%;
-  }
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+#definicion.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
-  .cabecera-principios {
-    width: 100%;
-    max-height: 250px;
+.cabecera-principios {
+    display: block;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
     object-fit: cover;
-    margin-bottom: 30px;
-  }
+}
 </style>
 
 </head>
