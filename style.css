@@ -176,3 +176,38 @@ footer {
   width: 100%;
 }
 
+.descargas-contenedor {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f0f9f8; /* color suave compatible con paleta */
+}
+
+.subtitulo-seccion {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  color: #0a3a5a;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.descarga-bloques {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boton-descarga {
+  display: inline-block;
+  background-color: #007b80;
+  color: white;
+  font-size: 1.1em;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.boton-descarga:hover {
+  background-color: #005f60;
+}
