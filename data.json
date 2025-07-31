@@ -1,0 +1,257 @@
+[
+  {
+    "title": "Bienvenida",
+    "url": "index.html",
+    "content": "Explora la Guía Marco interactiva sobre el uso responsable de la inteligencia artificial en el periodismo. Accede a sus principios, normas, recomendaciones, glosario y recursos descargables. El avance de la inteligencia artificial está transformando la práctica periodística de forma profunda y acelerada. Por eso, es necesario establecer un protocolo común de actuación para preservar la esencia e integridad de la práctica periodística, sin perder credibilidad y creando un entorno seguro para periodistas y audiencia. Esta guía práctica se ha elaborado con el fin de garantizar que los profesionales que trabajan en los medios de comunicación sean agentes del cambio y no víctimas de él. Este documento tiene por objetivo crear un entorno seguro y democrático donde la inteligencia artificial sea utilizada como una herramienta que amplifique nuestras capacidades y libere tiempo y recursos para lo esencial: investigar, contrastar, narrar con rigor , y no como un sustituto.",
+    "keywords": [
+      "bienvenida"
+    ]
+  },
+  {
+    "title": "Un marco común y responsable",
+    "url": "presentacion.html",
+    "content": "La presente guía tiene como objetivo establecer un marco común para el uso responsable, transparente y ético de herramientas de inteligencia artificial (IA)\n                    en el ámbito de los medios de comunicación. Surge como respuesta a la rápida integración de tecnologías automatizadas en procesos periodísticos\n                    y a la necesidad de garantizar que dicha integración se realice en consonancia con los valores democráticos , los principios deontológicos y los derechos fundamentales que rigen la profesión periodística.",
+    "keywords": [
+      "común",
+      "responsable",
+      "marco"
+    ]
+  },
+  {
+    "title": "¿A quién va dirigida?",
+    "url": "presentacion.html",
+    "content": "Este protocolo se aplica a todo el personal editorial, técnico y de apoyo que utilice herramientas\n                    de IA en tareas relacionadas con la producción, edición, documentación o distribución de contenidos. La guía abarca todas las fases del trabajo editorial strong> en las que pueda intervenir un sistema de \n                    inteligencia artificial, desde la recopilación de información hasta la distribución de contenidos,\n                    incluyendo la automatización parcial o total de tareas.",
+    "keywords": [
+      "dirigida?",
+      "quién"
+    ]
+  },
+  {
+    "title": "Inspirada en referentes internacionales",
+    "url": "presentacion.html",
+    "content": "Basada en el análisis de más de 20 referencias internacionales de organismos como UNESCO , Consejo de Europa , FAPE , y medios como BBC , Reuters , RTVE , The Guardian o DPA , entre otros. También incorpora principios del AI Act (2024) y marcos éticos como la Carta de París o la Declaración de Bletchley .",
+    "keywords": [
+      "referentes",
+      "internacionales",
+      "inspirada"
+    ]
+  },
+  {
+    "title": "Una herramienta práctica y operativa",
+    "url": "presentacion.html",
+    "content": "La guía ha sido diseñada como una herramienta adaptable y operativa ,\n                    capaz de aplicarse en medios de distintos tamaños y niveles tecnológicos . La guía no es \n                    un documento normativo vinculante, pero establece estándares de calidad, transparencia y gobernanza \n                    ética que pueden ser adoptados por los medios como parte de su política editorial. Su finalidad es que los profesionales del periodismo se conviertan en agentes activos del cambio ,\n                    no en víctimas de la automatización.",
+    "keywords": [
+      "práctica",
+      "herramienta",
+      "operativa"
+    ]
+  },
+  {
+    "title": "Principios rectores",
+    "url": "principios.html",
+    "content": "Estos principios constituyen la base ética y profesional sobre la que se articula la presente guía. Han sido formulados a partir de recomendaciones internacionales, estándares profesionales y buenas prácticas ya aplicadas por medios de referencia.",
+    "keywords": [
+      "principios",
+      "rectores"
+    ]
+  },
+  {
+    "title": "1. Supervisión humana",
+    "url": "principios.html",
+    "content": "Todo contenido generado o asistido por sistemas de inteligencia artificial debe estar sujeto a la intervención, validación y responsabilidad de profesionales humanos en todas las fases del proceso editorial. La toma de decisiones no puede ser completamente delegada a máquinas. La IA no sustituye la responsabilidad editorial ni las decisiones profesionales. La utilización de IA debe respetar los principios de veracidad, precisión y contrastación.",
+    "keywords": [
+      "humana",
+      "supervisión"
+    ]
+  },
+  {
+    "title": "2. Transparencia y Trazabilidad",
+    "url": "principios.html",
+    "content": "Los medios deben informar de manera clara y accesible sobre el uso de IA, especialmente cuando afecta a los contenidos ofrecidos a la audiencia. Esto incluye la identificación de textos, imágenes, audios o vídeos generados o modificados mediante herramientas automatizadas. Las decisiones asistidas o automatizadas mediante IA deben ser explicables, documentadas y auditables . Debe mantenerse un registro interno que permita reconstruir cómo, cuándo, con qué herramientas y bajo qué criterios se ha utilizado IA en los procesos informativos.",
+    "keywords": [
+      "transparencia",
+      "trazabilidad"
+    ]
+  },
+  {
+    "title": "3. Responsabilidad editorial y rendición de cuentas",
+    "url": "principios.html",
+    "content": "El medio asume plena responsabilidad por todos los contenidos que publica, con independencia de que hayan sido producidos total o parcialmente mediante sistemas de IA. Esta responsabilidad es indelegable y forma parte del compromiso ético del periodismo. Los errores, sesgos o efectos no deseados derivados de estas herramientas deben poder ser identificados, atribuidos y corregidos . Este principio implica prohibir el uso de firmas ficticias, avatares engañosos o atribuciones erróneas que oculten la participación de herramientas automatizadas.",
+    "keywords": [
+      "editorial",
+      "responsabilidad",
+      "rendición",
+      "cuentas"
+    ]
+  },
+  {
+    "title": "4. Protección de los derechos fundamentales",
+    "url": "principios.html",
+    "content": "El uso de IA debe garantizar en todo momento la protección de derechos como la privacidad, la libertad de expresión, la libertad de información y la dignidad de las personas . Cualquier aplicación tecnológica que los comprometa debe ser revisada o descartada. Las herramientas de personalización de contenidos, análisis predictivo o minería de datos deben funcionar con el consentimiento explícito del usuario, y los datos recopilados deben estar protegidos mediante sistemas seguros.",
+    "keywords": [
+      "protección",
+      "derechos",
+      "fundamentales"
+    ]
+  },
+  {
+    "title": "5. Proporcionalidad y adecuación",
+    "url": "principios.html",
+    "content": "El uso de herramientas de IA debe responder a una necesidad editorial o productiva justificada , evitando la automatización indiscriminada o desproporcionada que comprometa la calidad del contenido o el criterio profesional. La inteligencia artificial no debe sustituir el juicio editorial ni el contexto profesional que otorgan los periodistas. El uso de IA debe justificarse por su valor añadido, eficiencia o mejora en los flujos de trabajo , sin comprometer la calidad editorial ni sustituir funciones clave del ejercicio periodístico.",
+    "keywords": [
+      "proporcionalidad",
+      "adecuación"
+    ]
+  },
+  {
+    "title": "6. Seguridad y minimización de riesgos",
+    "url": "principios.html",
+    "content": "Las herramientas empleadas deben haber sido evaluadas y revisadas con regularidad para evitar impactos negativos, como sesgos algorítmicos, discriminación indirecta, suplantaciones o manipulaciones informativas, tanto en los datos de entrenamiento como en los resultados generados.",
+    "keywords": [
+      "riesgos",
+      "minimización",
+      "seguridad"
+    ]
+  },
+  {
+    "title": "7. Alfabetización digital y revisión periódica",
+    "url": "principios.html",
+    "content": "Los profesionales deben recibir formación específica sobre el funcionamiento, alcance y límite s de las tecnologías de IA que utilizan. Toda política de uso de IA debe estar sujeta a revisión periódica. Esto implica establecer mecanismos internos de supervisión, actualización de protocolos y evaluación del impacto editorial, social y ético de las tecnologías implementadas.",
+    "keywords": [
+      "alfabetización",
+      "revisión",
+      "digital",
+      "periódica"
+    ]
+  },
+  {
+    "title": "Valores editoriales y deontológicos",
+    "url": "principios.html",
+    "content": "El uso de inteligencia artificial en medios debe alinearse con los valores editoriales y deontológicos fundamentales que rigen la profesión periodística: • Independencia editorial: Ninguna herramienta basada en IA debe condicionar, censurar o sesgar el tratamiento informativo. • Interés público: La aplicación de IA debe estar siempre orientada a fortalecer el servicio público de información, mejorar el acceso al conocimiento, aumentar la calidad de los contenidos y proteger el derecho de la ciudadanía a una comunicación libre, veraz y plural. • Protección de fuentes: No exponer datos de fuentes sensibles a sistemas de IA sin cifrado o anonimato. Se requiere cifrado, anonimización y consentimiento informado .",
+    "keywords": [
+      "deontológicos",
+      "valores",
+      "editoriales"
+    ]
+  },
+  {
+    "title": "Recomendaciones de uso de IA en medios de comunicación",
+    "url": "recomendaciones.html",
+    "content": "Este apartado establece orientaciones prácticas para una integración ética, responsable y eficaz de herramientas de inteligencia artificial en medios de comunicación. Las recomendaciones se organizan en tres ámbitos: el marco institucional, las buenas prácticas editoriales y de producción, y los principios para la formación, el diseño y la rendición de cuentas.",
+    "keywords": [
+      "comunicación",
+      "medios",
+      "recomendaciones"
+    ]
+  },
+  {
+    "title": "MARCO INSTITUCIONAL",
+    "url": "recomendaciones.html",
+    "content": "• Impulsar políticas editoriales claras sobre el uso de la inteligencia artificial , aprobadas por los órganos de dirección de cada medio y actualizadas de forma periódica. (*) Las políticas internas deben dejar constancia de qué usos están expresamente prohibidos. • Fomentar la existencia de códigos internos, protocolos o libros de estilo que incluyan criterios sobre el uso de IA en la producción de contenidos. • Establecer una gobernanza responsable del uso de IA , que incluya mecanismos de evaluación ética, supervisión editorial y rendición de cuentas. • Designar personas o equipos de referencia dentro del medio (unidades de innovación, responsables editoriales, etc.). • Es recomendable crear un comité interno o grupo de trabajo interdisciplinar que reúna perfiles editoriales, técnicos y legales para supervisar el uso de IA en la organización, analizar riesgos, evaluar herramientas y revisar los impactos. • Evaluar los impactos de la IA en los modelos organizativos y de negocio.",
+    "keywords": [
+      "institucional",
+      "marco"
+    ]
+  },
+  {
+    "title": "BUENAS PRÁCTICAS EDITORIALES Y DE PRODUCCIÓN",
+    "url": "recomendaciones.html",
+    "content": "• Asegurar la verificación humana de todos los contenidos generados total o parcialmente mediante IA antes de su publicación o emisión. • Identificar claramente ante la audiencia los contenidos generados o modificados por IA. • No sustituir la labor profesional ni la responsabilidad editorial con procesos automatizados que no cumplan criterios de calidad, rigor y veracidad. • Incluir la IA como apoyo, no como sustitución , dentro de los flujos de trabajo informativos, integrándola con criterio y transparencia. • Las redacciones deben documentar el uso de sistemas automatizados en sus flujos de trabajo. • Revisar de forma periódica las herramientas de IA empleadas, sus datos de entrenamiento y los resultados que generan. Establecer protocolos para la revisión y verificación antes de su publicación. • Aplicar filtros éticos y editoriales a los contenidos generados, evitando la reproducción de estereotipos, sesgos o discriminaciones.",
+    "keywords": [
+      "producción",
+      "buenas",
+      "prácticas",
+      "editoriales"
+    ]
+  },
+  {
+    "title": "FORMACIÓN, DISEÑO Y RENDICIÓN DE CUENTAS",
+    "url": "recomendaciones.html",
+    "content": "• Diseñar planes de formación específicos en inteligencia artificial para todos los perfiles profesionales del medio (periodistas, editores, documentalistas, técnicos, etc.). • Incluir la alfabetización digital en los planes de acogida, formación continua y reciclaje profesional. Las herramientas de IA utilizadas deben ser auditables, explicables y accesibles para los profesionales que las utilizan. • Fomentar el conocimiento crítico sobre el funcionamiento, los riesgos y las oportunidades de la IA en contextos periodísticos. • Incorporar la ética del diseño en el desarrollo e implementación de sistemas propios o adquiridos de IA, priorizando la explicabilidad, la no discriminación y la responsabilidad editorial. • Crear mecanismos de seguimiento y evaluación , con indicadores que permitan revisar el uso de la IA y su impacto en la calidad informativa, la equidad y la confianza de la audiencia. • Facilitar espacios de consulta y participación para los profesionales en el desarrollo de protocolos y criterios de uso.",
+    "keywords": [
+      "cuentas",
+      "rendición",
+      "formación,",
+      "diseño"
+    ]
+  },
+  {
+    "title": "Ámbitos de aplicación",
+    "url": "ambitos.html",
+    "content": "Esta guía contempla un uso transversal de las herramientas de inteligencia artificial en los medios de comunicación, entendiendo que su aplicación puede afectar a múltiples niveles de la producción informativa, desde los procesos internos hasta los contenidos destinados al público.",
+    "keywords": [
+      "ámbitos",
+      "aplicación"
+    ]
+  },
+  {
+    "title": "1. Generación, edición y verificación de contenidos",
+    "url": "ambitos.html",
+    "content": "• Borradores de textos informativos , titulares, resúmenes, subtítulos, descripciones. • Edición automatizada de vídeo, audio e imagen. • Verificación de hechos (fact-checking) , detección de plagios, análisis de contenido. • Extracción automatizada de información de documentos (recuperación, organización y síntesis de grandes volúmenes de información). • Elaboración de contenidos basados en datos (resultados deportivos o boletines meteorológicos). • Producción técnica de contenidos multimedia (gráficos, mapas e infografías), siempre que se respeten los principios de transparencia, atribución y no manipulación. (*) No se recomienda el uso de imágenes y vídeos relizados con IA en coberturas informativas, salvo que estén claramente etiquetadas como tales y se excluyan de portadas para evitar malinterpretaciones.",
+    "keywords": [
+      "contenidos",
+      "generación,",
+      "verificación",
+      "edición"
+    ]
+  },
+  {
+    "title": "2. Producción y programación audiovisual",
+    "url": "ambitos.html",
+    "content": "•\tOrganización automatizada de escaletas. •\tselección de piezas y etiquetado de contenidos. •\tGeneración de voz sintética. •\tTraducción automática, doblaje y subtitulado. •\tAdaptación de contenidos a múltiples plataformas y formatos.",
+    "keywords": [
+      "producción",
+      "programación",
+      "audiovisual"
+    ]
+  },
+  {
+    "title": "3. Distribución y personalización de contenidos",
+    "url": "ambitos.html",
+    "content": "• Sistemas de recomendación. • Motores de personalización. • Herramientas de segmentación de audiencias y análisis predictivo basado en algoritmos. • Automatización de publicaciones en redes sociales. • Optimización de titulares. • Selección automatizada de miniaturas, imágenes o extractos que acompañan a las piezas informativas. • Moderación de comentarios y gestión de comunidades:",
+    "keywords": [
+      "personalización",
+      "distribución",
+      "contenidos"
+    ]
+  },
+  {
+    "title": "4. Organización y gestión interna",
+    "url": "ambitos.html",
+    "content": "• Gestión de flujos de trabajo. • Asignación de tareas y ordenación de prioridades informativas. • Diseño de parrillas o escaletas. • Análisis de métricas de rendimiento editorial. • Gestión documental o minería de datos internos.",
+    "keywords": [
+      "interna",
+      "gestión",
+      "organización"
+    ]
+  },
+  {
+    "title": "5. Innovación, desarrollo tecnológico y formación",
+    "url": "ambitos.html",
+    "content": "• Laboratorios de innovación. • Procesos de investigación y desarrollo. • Diseño de nuevas herramientas o plataformas. • Evaluación de competencias y diseño de entornos de aprendizaje automatizados.",
+    "keywords": [
+      "formación",
+      "desarrollo",
+      "tecnológico",
+      "innovación,"
+    ]
+  },
+  {
+    "title": "Condiciones específicas por tipo de uso",
+    "url": "condiciones.html",
+    "content": "Este apartado establece directrices adicionales para contextos concretos en los que el uso de herramientas de inteligencia artificial plantea desafíos éticos, editoriales o legales específicos. Estas condiciones deben considerarse complementarias a los principios generales, y su aplicación dependerá del tipo de herramienta empleada y del contexto en el que se integre dentro del trabajo periodístico. Las siguientes tipologías de uso requieren especial atención y regulación:",
+    "keywords": [
+      "condiciones",
+      "específicas"
+    ]
+  },
+  {
+    "title": "Documentos descargables",
+    "url": "descargas.html",
+    "content": "📘 Guía Marco (PDF) 🧠 Glosario de Términos (PDF) 🧾 Plantillas editables (PDF)",
+    "keywords": [
+      "descargables",
+      "documentos"
+    ]
+  }
+]
