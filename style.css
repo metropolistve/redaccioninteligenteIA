@@ -257,3 +257,55 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+/* ====== MODAL DE BÚSQUEDA ====== */
+.search-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.search-modal-content {
+  background-color: #ffffff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.search-modal input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #2d7f94; /* Azul petróleo */
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.search-modal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-modal ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.search-modal ul li a {
+  color: #2d7f94;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.close-search {
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+}
