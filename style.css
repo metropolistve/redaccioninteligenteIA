@@ -333,3 +333,36 @@ section select#terminos {
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+.bloque-enlaces {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #eef4f8;
+  border-left: 5px solid #3478c0;
+  border-radius: 10px;
+}
+
+.bloque-enlaces h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #004080;
+  text-align: center;
+}
+
+.bloque-enlaces ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bloque-enlaces li {
+  margin-bottom: 10px;
+}
+
+.bloque-enlaces a {
+  text-decoration: none;
+  color: #1a4c8b;
+}
+
+.bloque-enlaces a:hover {
+  text-decoration: underline;
+}
