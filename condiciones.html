@@ -162,12 +162,8 @@ document.getElementById("searchInput").addEventListener("input", function () {
         resultsList.innerHTML = "<li>No se encontraron resultados.</li>";
       } else {
         results.forEach(result => {
-          // Resalta la palabra clave en el contenido si existe
-          const regex = new RegExp(`(${query})`, "gi");
-          const highlighted = result.content.replace(regex, `<mark>$1</mark>`);
-          
           const li = document.createElement("li");
-          li.innerHTML = `<a href="${result.url}"><strong>${result.title}</strong><br><small>${highlighted}</small></a>`;
+          li.innerHTML = `<a href="${result.url}">${result.title}</a>`;
           resultsList.appendChild(li);
         });
       }
