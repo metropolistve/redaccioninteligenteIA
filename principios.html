@@ -20,6 +20,7 @@
             <a href="guia_rapida.html" class="activo">Guía rápida</a>
             <a href="glosario.html">Glosario</a>
             <a href="descargas.html">Descargas</a>
+               <button id="openSearchModal" style="background: none; border: none; cursor: pointer; font-size: 1.2rem;" title="Buscar en la Guía">🔍</button>
         </nav>
     </header>
 
@@ -136,6 +137,58 @@
     <footer>
         <p>&copy; 2025 Redacción Inteligente IA. Todos los derechos reservados.</p>
     </footer>
+  <!-- 🔍 MODAL DE BÚSQUEDA -->
+<div id="searchModal" class="search-modal">
+  <div class="search-modal-content">
+    <span class="close-search">&times;</span>
+    <input type="text" id="searchInput" placeholder="Buscar en la Guía..." />
+    <ul id="searchResults"></ul>
+  </div>
+</div>
+<script>
+document.getElementById("openSearchModal").onclick = function() {
+  document.getElementById("searchModal").style.display = "block";
+  document.getElementById("searchInput").focus();
+};
+
+document.querySelector(".close-search").onclick = function() {
+  document.getElementById("searchModal").style.display = "none";
+  document.getElementById("searchResults").innerHTML = "";
+  document.getElementById("searchInput").value = "";
+};
+
+window.onclick = function(event) {
+  if (event.target == document.getElementById("searchModal")) {
+    document.getElementById("searchModal").style.display = "none";
+  }
+};
+
+document.getElementById("searchInput").addEventListener("input", function () {
+  const query = this.value.toLowerCase();
+  fetch("data.json")
+    .then(response => response.json())
+    .then(data => {
+      const results = data.filter(item =>
+        item.content.toLowerCase().includes(query) ||
+        item.title.toLowerCase().includes(query) ||
+        (item.keywords || []).some(k => k.toLowerCase().includes(query))
+      );
+
+      const resultsList = document.getElementById("searchResults");
+      resultsList.innerHTML = "";
+
+      if (results.length === 0) {
+        resultsList.innerHTML = "<li>No se encontraron resultados.</li>";
+      } else {
+        results.forEach(result => {
+          const li = document.createElement("li");
+          li.innerHTML = `<a href="${result.url}">${result.title}</a>`;
+          resultsList.appendChild(li);
+        });
+      }
+    });
+});
+</script>
 </body>
 </html>
 
