@@ -309,3 +309,27 @@ footer {
   font-size: 22px;
   cursor: pointer;
 }
+/* Centrar y agrandar el bloque del glosario */
+section select#terminos {
+  display: block;
+  margin: 30px auto;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Centrar y agrandar la definición mostrada */
+#definicion {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
